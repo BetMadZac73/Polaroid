@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>viewer</title>
+    <link rel="stylesheet" href="./polaroid.css">
+    <link rel="stylesheet" href="./anna-lou.css">
+  </head>
+  <body>
+    <script>
+    var opts = location.search.slice(1).split(";");
+    opts[1] = opts[1].replace(/%20/g," ");
+    opts[3] = opts[3].replace(/%20/g," ");
+    html = "<img class='gallery' src='" + opts[0] + "'>";
+    html += "<div class='price'><br>";
+      if ( opts[2] != '' ){
+        html += "Price: £" + opts[2] + "&nbsp;&nbsp;&nbsp;";
+      }
+    html += "Title: " + opts[3] + "&nbsp;&nbsp;&nbsp;";
+    html += "Media: " + opts[1] + "</div>";
+    document.write(html);
+    </script>
+    
+  </body>
+</html>

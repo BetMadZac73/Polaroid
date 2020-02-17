@@ -37,13 +37,16 @@
     makePol(img_count);
     </script>
     <div class="titleBar"> Contact and Social Media </div>
-    <div class="section"> Please visit my <a href="https://www.facebook.com/Anna-Lou-Art-108879957327886/">FaceBook Page</a>
+    <div class="section"> Please visit my <a href="https://www.facebook.com/Anna-Lou-Art-108879957327886/">FaceBook
+        Page</a>
       <div class="fb-like" data-href="https://www.facebook.com/Anna-Lou-Art-108879957327886/?epa=SEARCH_BOX"
 
         data-width="200" data-layout="standard" data-action="like" data-size="large"
 
         data-share="true"></div>
-    </div>
-    
+      You can contact me at ... <br>
+      For sales, please be aware that P&amp;P to mainland UK will add around
+      £15, outside of mainland UK I will provide details on case by case basis.
+      </div>
   </body>
 </html>
