@@ -1,0 +1,47 @@
+div.polaroid {
+  width: 400px;
+  height: 400px;
+  float: left;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px;
+}
+img.polaroid {
+  height: 300px;
+  width: auto;
+}
+div.title {
+  position: relative;
+  top: -45px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  font-Size: 24px;
+}
+div.media {
+  text-align: left;
+  font-Size: 18px;
+}
+div.price {
+  position: relative;
+  top: -45px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  font-Size: 32px;
+  color: rgba(255, 255, 255, 0.8);
+}
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+
+

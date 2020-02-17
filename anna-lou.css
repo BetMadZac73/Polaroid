@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+    background-color: rgba(50,50,80,1);
+}
+* {
+    font-family: fantasy, Chalkduster, "Comic Sans MS";
+    font-weight: bold;
+}
+.parallax {
+    /* The image used */
+    background-image: url("art/studio.jpg");
+    min-height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+.blank {
+    height: 75px;
+}
+.titleBar {
+    height: 70px;
+    width: 90%;
+    font-size: 48px;
+    font-weight: bold;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 0px 0px 50px;
+    border: inset 4px rgba(150,150,180,1);
+    border-radius: 20px;
+    outline: outset 4px rgba(150,150,180,1);
+    background-color: rgba(50,50,80,1);
+    color: rgba(150,150,180,1);
+}
+.section {
+    background-color: rgba(255,255,255,0.5);
+    font-size: 32px;
+    float: left;
+    min-height: 300px;
+    width: 80%; 
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    border: solid 2px red;
+}
+.section:hover {
+    background-color: rgba(255,255,255,0.75);
+    border: inset 2px rgb(50,50,80);
+}
+a:hover {
+    color: crimson;
+}
+img.gallery {
+    max-height: 30%;
+    max-width: 30%;
+    padding: 20px;
+    border: outset 6px rgba(50, 50, 80, 1);
+    outline: rgba(150, 150, 180, 1) inset 6px;
+    background-color: white;
+    filter: grayscale(97%);
+    transition-property: max-width;
+    transition-duration: 2s;
+}
+img.gallery:hover {
+    filter: none;
+    border: outset 6px rgba(50, 250, 80, 1);
+    outline: rgba(150, 150, 180, 1) inset 6px;
+    max-width: 70%;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.clearfix {
+    overflow: auto;
+    background-color: rgba(255,255,255,0.5);
+    font-size: 32px;
+    min-height: 300px;
+    max-height: 90%;
+    width: 80%; 
+    margin: 40px;
+    padding: 25px;
+    border-radius: 15px;
+    border: solid 2px white;
+}
+.clearfix:hover {
+    background-color: white;
+}
+img.profile {
+    width: 30%;
+    float: right;
+    padding: 6px;
+    border: outset 6px rgba(50, 50, 80, 1);
+    outline: rgba(50, 50, 80, 1) inset 6px;
+    background-color: white;
+    filter: grayscale(90%);
+}
+img.profile:hover {
+    filter: none;
+}
+h3 {
+    font-weight: bold;
+    font-size: 48px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Anna-Lou Art Gallery</title>
+    <link rel="stylesheet" href="./polaroid.css">
+    <link rel="stylesheet" href="./anna-lou.css">
+    <script src="./polaroid.js"></script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script async="" defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+    <div class="titleBar"> Anna Lou - about </div>
+    <div class="section"> <img class="profile" alt="anna-lou" src="./art/anna-lou.jpg">
+      Welcome to my Art Gallery. Below you will find a selection of my pictures.
+    </div>
+    <div class="titleBar"> Some paintings from around Northamptonshire </div>
+    <script>
+    var img_count = 6;
+    var img_1 = [ './art/img_1.jpg', 'A3 Acrylic', '65', 'Country Road', 'rotate_right' ];
+    var img_2 = [ './art/img_2.jpg', 'A3 Acrylic', '125', 'House by Lake', 'rotate_left' ];
+    var img_3 = [ './art/img_3.jpg', 'A3 Acrylic', '65', 'My Art Work', 'rotate_right' ];
+    var img_4 = [ './art/img_4.jpg', 'A3 Acrylic', '125', 'My Art Work', '' ];
+    var img_5 = [ './art/img_5.jpg', 'A3 Acrylic', '65', 'My Art Work', 'rotate_right' ];
+    var img_6 = [ './art/img_6.jpg', 'A3 Acrylic', '125', 'My Art Work', 'rotate_left' ];
+    makePol(img_count);
+    </script>
+    <div class="titleBar"> Some paintings of Uganda </div>
+    <script>
+    var img_count = 6;
+    var img_1 = [ './art/uganda_1.jpg', 'A3 Acrylic', '65', 'Elephants in Uganda', 'rotate_right' ];
+    var img_2 = [ './art/img_2.jpg', 'A3 Acrylic', '125', 'House by Lake', 'rotate_left' ];
+    var img_3 = [ './art/img_3.jpg', 'A3 Acrylic', '65', 'My Art Work', 'rotate_right' ];
+    var img_4 = [ './art/uganda_1.jpg', 'A3 Acrylic', '125', 'Elephants in Uganda', '' ];
+    var img_5 = [ './art/img_5.jpg', 'A3 Acrylic', '65', 'My Art Work', 'rotate_right' ];
+    var img_6 = [ './art/img_6.jpg', 'A3 Acrylic', '125', 'My Art Work', 'rotate_left' ];
+    makePol(img_count);
+    </script>
+    <div class="titleBar"> Contact and Social Media </div>
+    <div class="section"> Please visit my <a href="https://www.facebook.com/Anna-Lou-Art-108879957327886/">FaceBook Page</a>
+      <div class="fb-like" data-href="https://www.facebook.com/Anna-Lou-Art-108879957327886/?epa=SEARCH_BOX"
+
+        data-width="200" data-layout="standard" data-action="like" data-size="large"
+
+        data-share="true"></div>
+    </div>
+    
+  </body>
+</html>
