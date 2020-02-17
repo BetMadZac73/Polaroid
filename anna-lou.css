@@ -55,15 +55,15 @@ a:hover {
     color: crimson;
 }
 img.gallery {
-    max-height: 30%;
-    max-width: 30%;
+    max-height: 80%;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
-    border: outset 6px rgba(50, 50, 80, 1);
+    border: outset 6px rgba(50, 250, 80, 1);
     outline: rgba(150, 150, 180, 1) inset 6px;
     background-color: white;
-    filter: grayscale(97%);
-    transition-property: max-width;
-    transition-duration: 2s;
 }
 img.gallery:hover {
     filter: none;
