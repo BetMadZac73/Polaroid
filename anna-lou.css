@@ -1,6 +1,9 @@
 body, html {
     height: 100%;
-    background-color: rgba(50,50,80,1);
+    background-color: rgba(180, 180, 180,1);
+    background-image: url("./art/background.png");
+    background-size: 12%;
+
 }
 * {
     font-family: fantasy, Chalkduster, "Comic Sans MS";
@@ -31,11 +34,15 @@ body, html {
     border: inset 4px rgba(150,150,180,1);
     border-radius: 20px;
     outline: outset 4px rgba(150,150,180,1);
-    background-color: rgba(50,50,80,1);
-    color: rgba(150,150,180,1);
+    background-color: rgba(180, 180, 180,1);
+    color: rgba(50,50,80,1);
+    background-image: url("./art/background.png");
+    background-size: 5%;
 }
 .section {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgb(220, 220, 220);
+    background-image: url("./art/background.png");
+    background-size: 50%;
     font-size: 32px;
     float: left;
     min-height: 300px;
@@ -48,7 +55,8 @@ body, html {
     border: solid 2px red;
 }
 .section:hover {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,1);
+    background-image: url("./art/background1.png");
     border: inset 2px rgb(50,50,80);
 }
 a:hover {

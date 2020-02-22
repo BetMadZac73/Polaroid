@@ -12,7 +12,7 @@
     opts[1] = opts[1].replace(/%20/g," ");
     opts[3] = opts[3].replace(/%20/g," ");
     html = "<img class='gallery' src='" + opts[0] + "'>";
-    html += "<div class='price'><br>";
+    html += "<div class='price' style='color: #000000;'><br>";
       if ( opts[2] != '' ){
         html += "Price: £" + opts[2] + ",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
       }
@@ -20,6 +20,5 @@
     html += "Media: " + opts[1] + "</div>";
     document.write(html);
     </script>
-    
   </body>
 </html>

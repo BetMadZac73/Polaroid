@@ -1,10 +1,27 @@
+div.picboard {
+  background-color: rgb(220, 220, 220);
+  background-image: url("./art/background.png");
+  background-size: 20%;
+  float: left;
+  width: 90%;
+  padding: 5%;
+  padding-right: 5%;
+  border: 2px solid;
+}
+div.picboardText {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 22px;
+}
 div.polaroid {
   width: 400px;
   height: 400px;
   float: left;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 25px;
+  margin: 5px;
+  padding: 5px;
 }
 img.polaroid {
   height: 300px;

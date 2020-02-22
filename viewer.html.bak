@@ -14,9 +14,9 @@
     html = "<img class='gallery' src='" + opts[0] + "'>";
     html += "<div class='price'><br>";
       if ( opts[2] != '' ){
-        html += "Price: £" + opts[2] + "&nbsp;&nbsp;&nbsp;";
+        html += "Price: £" + opts[2] + ",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
       }
-    html += "Title: " + opts[3] + "&nbsp;&nbsp;&nbsp;";
+    html += "Title: " + opts[3] + ",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
     html += "Media: " + opts[1] + "</div>";
     document.write(html);
     </script>
