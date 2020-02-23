@@ -29,8 +29,8 @@
     makePol(img_count);
     </script> </div>
     <div class="titleBar"> Some paintings from around Northamptonshire </div>
-    <div class="picboard">I absolutely love the county and I hope you will enjoy
-      the below selection of pictures from around my local area.<br><br><br>
+    <div class="picboard"><div class="picboardText">I absolutely love the county and I hope you will enjoy
+      the below selection of pictures from around my local area.</div><br><br><br>
       <script>
     var img_count = 6;
     var img_1 = [ './art/img_1.jpg', 'A3 Acrylic', '65', 'Country Road', 'rotate_right' ];
@@ -42,8 +42,8 @@
     makePol(img_count);
       </script></div>
     <div class="titleBar"> Some paintings of Uganda </div>
-    <div class="picboard">My daughter spent some time volunteering in Uganda,
-      and shared some amazing photographs of her experience. <br>
+    <div class="picboard"><div class="picboardText">My daughter spent some time volunteering in Uganda,
+      and shared some amazing photographs of her experience. </div><br><br><br>
       <script>
     var img_count = 7;
     var img_1 = [ './art/uganda_1.jpg', 'A3 Acrylic', '65', 'Elephants in Uganda', 'rotate_right' ];
