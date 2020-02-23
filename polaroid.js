@@ -4,8 +4,8 @@ function makePol(x) {
   for ( var i = x ; i >= 0 ; i-- ) {            // lets run in reverse
     img = eval("img_"+i);			// use the counter to evaluate the input
     if (img[5] == 'big') { 			// when i want a bigger polaroid
-      big = "style='width:600px; height:600px;'"
-      bigpic = "style='height:500px;'"
+      big = "style='width:650px; height:600px;'"
+      bigpic = "style='max-height:500px;'"
     } else {
       big = "";
       bigpic = "";

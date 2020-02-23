@@ -30,7 +30,7 @@ div.polaroid:hover {
   transform: scaleY(1.1) scaleX(1.1);
 }
 img.polaroid {
-  height: 300px;
+  max-height: 300px;
   width: auto;
   max-width: 100%;
 }
