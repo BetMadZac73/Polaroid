@@ -9,16 +9,35 @@
   </head>
   <body>
     <div id="fb-root"></div>
+    
     <script async="" defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
     <div class="titleBar"> Anna Lou - about </div>
     <div class="section"> <img class="profile" alt="anna-lou" src="./art/anna-lou.jpg">
       Welcome to my Art Gallery. Below you will find a selection of my pictures.
     </div>
+
+        <div class="titleBar"> My Latest Work </div>
+    <div class="picboard">
+      <div class="picboardText"> This is an abstract piece I call Moody Skies </div>
+      <br>
+      <br>
+      <br>
+      <script>
+    var img_count = 1;
+    var img_1 = [ './art/paint_8.jpg', 'A3 Acrylic', '', 'Moody Skies', 'rotate_right', 'big' ];
+    makePol(img_count);
+    </script>
+    </div>
+
+    
     <div class="titleBar"> Northumberland - beautiful Countryside </div>
     <div class="picboard">
       <div class="picboardText"> A good friend of mine sent me some lovely
         photo's from around Northumberland, I had so much fun turning them into
-        A3 size paintings. </div><br><br><br>
+        A3 size paintings. </div>
+      <br>
+      <br>
+      <br>
       <script>
     var img_count = 5;
     var img_1 = [ './art/Northumberland_1.jpg', 'A3 Acrylic', '65', 'Northumberland 1', 'rotate_right' ];
@@ -29,30 +48,67 @@
     makePol(img_count);
     </script> </div>
     <div class="titleBar"> Some paintings from around Northamptonshire </div>
-    <div class="picboard"><div class="picboardText">I absolutely love the county and I hope you will enjoy
-      the below selection of pictures from around my local area.</div><br><br><br>
+    <div class="picboard">
+      <div class="picboardText">I absolutely love the county and I hope you will
+        enjoy the below selection of pictures from around my local area.</div>
+      <br>
+      <br>
+      <br>
       <script>
-    var img_count = 6;
+    var img_count = 11;
     var img_1 = [ './art/img_1.jpg', 'A3 Acrylic', '65', 'Country Road', 'rotate_right' ];
-    var img_2 = [ './art/img_2.jpg', 'A3 Acrylic', '125', 'House by Lake', 'rotate_left' ];
-    var img_3 = [ './art/img_3.jpg', 'A3 Acrylic', '', 'My Art Work', 'rotate_right' ];
-    var img_4 = [ './art/img_4.jpg', 'A3 Acrylic', '125', 'My Art Work', '' ];
-    var img_5 = [ './art/img_5.jpg', 'A3 Acrylic', '65', 'My Art Work', 'rotate_right' ];
-    var img_6 = [ './art/img_6.jpg', 'A3 Acrylic', '125', 'My Art Work', 'rotate_left' ];
+    var img_2 = [ './art/img_2.jpg', 'A3 Acrylic', '125', 'Long Buckby Wharf', 'rotate_left' ];
+    var img_3 = [ './art/img_3.jpg', 'A3 Acrylic', '', 'Brook Bend - Towards West Haddon', 'rotate_right' ];
+    var img_4 = [ './art/paint_5.jpg', 'A3 Acrylic', '65', 'Long Buckby view', 'rotate_right' ];
+    var img_5 = [ './art/img_6.jpg', 'A3 Acrylic', '125', 'March Sunset - Long Buckby', 'rotate_left' ];
+    var img_6 = [ './art/img_7.jpg', 'A3 Acrylic', '125', 'Harvest Field - Long Buckby', '' ];
+    var img_7 = [ './art/img_8.jpg', 'A3 Acrylic', '125', 'Harvest Field II - Long Buckby', 'rotate_right' ];
+    var img_8 = [ './art/img_9.jpg', 'A3 Acrylic', '125', 'Foxhill Road', 'rotate_left' ];
+    var img_9 = [ './art/img_10.jpg', 'A3 Acrylic', '125', 'Foxhill Road - towards B&B', 'rotate_right' ];
+    var img_10 = [ './art/img_11.jpg', 'A3 Acrylic', '125', 'Foxhill Road - Brook Bend', '' ];
+    var img_11 = [ './art/img_12.jpg', 'A3 Acrylic', '125', 'Field on Foxhill Road', '' ];
     makePol(img_count);
       </script></div>
     <div class="titleBar"> Some paintings of Uganda </div>
-    <div class="picboard"><div class="picboardText">My daughter spent some time volunteering in Uganda,
-      and shared some amazing photographs of her experience. </div><br><br><br>
+    <div class="picboard">
+      <div class="picboardText">My daughter spent some time volunteering in
+        Uganda, and shared some amazing photographs of her experience. </div>
+      <br>
+      <br>
+      <br>
       <script>
     var img_count = 7;
     var img_1 = [ './art/uganda_1.jpg', 'A3 Acrylic', '65', 'Elephants in Uganda', 'rotate_right' ];
     var img_2 = [ './art/uganda_2.jpg', 'A3 Acrylic', '125', 'Uganda Scenery', 'rotate_left' ];
     var img_3 = [ './art/uganda_3.jpg', 'A3 Acrylic', '65', 'Uganda Scenery', 'rotate_right' ];
-    var img_4 = [ './art/uganda_4.jpg', 'A3 Acrylic', '125', 'Uganda Scenery', '' ];
+    var img_4 = [ './art/uganda_4.jpg', 'A3 Acrylic', '125', 'Uganda Fishing on the Lake', '' ];
     var img_5 = [ './art/uganda_5.jpg', 'A3 Acrylic', '65', 'Elephants Uganda', 'rotate_right' ];
     var img_6 = [ './art/uganda_6.jpg', 'A3 Acrylic', '125', 'Elephants Uganda', 'rotate_left' ];
     var img_7 = [ './art/uganda_7.jpg', 'A3 Acrylic', '125', 'Elephants Uganda', 'rotate_left' ];
+    makePol(img_count);
+      </script></div>
+    <div class="titleBar"> Selection of my Paintings </div>
+    <div class="picboard">
+      <div class="picboardText"> Here are a selection of various pics of mine </div>
+      <br>
+      <br>
+      <br>
+      <script>
+    var img_count = 14;
+    var img_1 = [ './art/paint_1.jpg', 'A3 Acrylic', '65', 'Misty Morning - Peak District', 'rotate_right' ];
+    var img_2 = [ './art/paint_2.jpg', 'A3 Acrylic', '125', 'May Time - Walk in Cwymbran', 'rotate_left' ];
+    var img_3 = [ './art/paint_3.jpg', 'A3 Acrylic', '65', 'May Day Sunrise', 'rotate_right' ];
+    var img_4 = [ './art/paint_4.jpg', 'A3 Acrylic', '125', 'March Sunrise', '' ];
+    var img_5 = [ './art/img_5.jpg', 'A3 Acrylic', '65', 'My Art', 'rotate_right' ];
+    var img_6 = [ './art/paint_6.jpg', 'A3 Acrylic', '125', 'Irish Park - Sunset', 'rotate_left' ];
+    var img_7 = [ './art/paint_7.jpg', 'A3 Acrylic', '125', 'Impression of Ruins', 'rotate_left' ];
+    var img_8 = [ './art/img_4.jpg', 'A3 Acrylic', '125', 'Ice Flow - Sunrise', 'rotate_right' ];
+    var img_9 = [ './art/paint_8.jpg', 'A3 Acrylic', '125', 'Moody Skies', '' ];
+    var img_10 = [ './art/paint_9.jpg', 'A3 Acrylic', '125', 'Green Sky', 'rotate_left' ];
+    var img_11 = [ './art/paint_10.jpg', 'A3 Acrylic', '125', 'Grass Verge', 'rotate_right' ];
+    var img_12 = [ './art/paint_11.jpg', 'A3 Acrylic', '125', 'Fall - New England', 'rotate_right' ];
+    var img_13 = [ './art/paint_12.jpg', 'A3 Acrylic', '125', 'Severn Estuary - Cwymbran', 'rotate_left' ];
+    var img_14 = [ './art/paint_14.jpg', 'A3 Acrylic', '125', 'Catkins', 'rotate_right' ];
     makePol(img_count);
       </script></div>
     <div class="titleBar"> Contact and Social Media </div>
@@ -70,6 +126,5 @@
       For sales, please be aware that P&amp;P to mainland UK will add around
       £15, outside of mainland UK I will provide details on case by case basis.
     </div>
-    
   </body>
 </html>
