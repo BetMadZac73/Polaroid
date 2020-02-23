@@ -24,7 +24,7 @@
       <br>
       <script>
     var img_count = 1;
-    var img_1 = [ './art/paint_8.jpg', 'A3 Acrylic', '', 'Moody Skies', 'rotate_right', 'big' ];
+    var img_1 = [ './art/paint_8.jpg', 'A3 Acrylic', '125', 'Moody Skies', 'random', 'big' ];
     makePol(img_count);
     </script>
     </div>
