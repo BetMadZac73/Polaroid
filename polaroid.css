@@ -23,6 +23,7 @@ div.polaroid {
   margin: 5px;
   padding: 5px;
   transition: background-color 2s, transform 2s;
+  transform: scaleY(0.8) scaleX(0.9);
 }
 div.polaroid:hover {
   background-color: black;
@@ -58,14 +59,14 @@ div.rotate_right {
   float: left;
   -ms-transform: rotate(7deg); /* IE 9 */
   -webkit-transform: rotate(7deg); /* Safari */
-  transform: rotate(7deg);
+  transform: rotate(7deg) scaleY(0.8) scaleX(0.9);
 }
 
 div.rotate_left {
   float: left;
   -ms-transform: rotate(-8deg); /* IE 9 */
   -webkit-transform: rotate(-8deg); /* Safari */
-  transform: rotate(-8deg);
+  transform: rotate(-8deg) scaleY(0.8) scaleX(0.9);
 }
 
 
